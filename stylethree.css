@@ -1,0 +1,126 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins';
+}
+
+.hero
+{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #a6ff4d;
+}
+
+form{
+	background: #fff;
+	width: 500px;
+	padding: 30px;
+	font-size: 18px;
+}
+
+.message-icon{
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.massege-icon i{
+	font-size: 40px;
+}
+.message-icon span{
+	font-size: 22px;
+	font-weight: bold;
+	margin-left: 15px;
+}
+
+form input, textarea{
+	width: 100%;
+	border-top:none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #000;
+	outline: none;
+}
+	
+#input-field{
+	padding-bottom: 20px;
+	display: flex;
+	align-items: center;
+}
+#input-field i{
+	font-size: 22px;
+	marin-right: 15px;
+}
+
+.send-btn{
+	width: 100px;
+	border: none;
+	background: #000;
+	color: #fff;
+	font-size: 16px;
+	padding: 6px 0;
+	border-radius: 50px;
+}
+
+ nav{
+  background-image: linear-gradient(#033747, #012733);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 100;
+ }
+ nav .logo p{
+	font-size: 20px;
+	 font-weight: bold;
+	 float: left;
+	 color: white;
+	 text-transform: none;
+	 letter-spacing: 1.5px;
+	 cursor:pointer;
+ }
+ nav ul{
+	 float: right;
+	 list-style: none;
+	display: flex;
+ }
+ nav li{
+	 list-style: none;
+	display: flex;
+	 margin-right: 15px;
+ }
+ nav li a{
+	font-size: 16px;
+	 text-transform: uppercase;
+	 padding: 0px 20px;
+	 color:white;
+	 text-decoration:none;
+	 transition: color 0.3s ease;
+ }
+ nav li a:hover{
+	 color:#ff8c69;
+	 transition: all 0.4s ease 0s;
+ }
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.company-info {
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+  form {
+    width: 100%;
+  }
